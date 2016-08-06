@@ -23,6 +23,7 @@
     </CostList>
     <constructEffect>ConstructMetal</constructEffect>
     <AltitudeLayer>Building</AltitudeLayer>
+    <blockWind>true</blockWind>
     <fillPercent>1</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -344,6 +345,7 @@
       <drawSize>(2,2)</drawSize>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
+    <blockWind>true</blockWind>
     <passability>Impassable</passability>
     <pathCost>150</pathCost>
     <fillPercent>1.0</fillPercent>
@@ -366,13 +368,13 @@
     </costList>
     <comps>
       <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>-1000</basePowerConsumption>
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-2000</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>5.0</fuelConsumptionRate>
+        <fuelConsumptionRate>1.0</fuelConsumptionRate>
         <fuelCapacity>100.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
