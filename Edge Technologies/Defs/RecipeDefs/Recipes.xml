@@ -450,7 +450,7 @@
           <categories>
             <li>PlantFoodRaw</li>
           </categories>
-          -<exceptedThingDefs>
+          <exceptedThingDefs>
             <li>Milk</li>
           </exceptedThingDefs>
         </filter>
@@ -481,7 +481,7 @@
           <categories>
             <li>PlantFoodRaw</li>
           </categories>
-          -<exceptedThingDefs>
+          <exceptedThingDefs>
             <li>Milk</li>
           </exceptedThingDefs>
         </filter>
