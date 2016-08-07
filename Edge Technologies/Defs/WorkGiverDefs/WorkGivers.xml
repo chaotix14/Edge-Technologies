@@ -60,4 +60,19 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsChemistryStation</defName>
+    <label>Produce</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>75</priorityInType>
+    <fixedBillGiverDefs>
+      <li>ChemistryStation</li>
+    </fixedBillGiverDefs>
+    <verb>Produce</verb>
+    <gerund>Producing at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
 </Defs>
