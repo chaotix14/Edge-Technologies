@@ -405,12 +405,12 @@
     <label>Chemistry Station</label>
     <ThingClass>Building_WorkTable</ThingClass>
     <Description>A workbench equiped with a variety of glassware and tools for among other things extraction, purification and polymerisation.</Description>
-    -<graphicData>
+    <graphicData>
       <texPath>Things/Building/Production/ResearchBenchSimple</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(5,4)</drawSize>
-      -<damageData>
+      <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
         <cornerBL>Damage/Corner</cornerBL>
@@ -419,11 +419,9 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <pathCost>70</pathCost>
-    <constructEffect>ConstructMetal</constructEffect>
-    -<stuffCategories>
+    <pathCost>70</pathCost>>
+    <stuffCategories>
       <li>Metallic</li>
-      <li>Woody</li>
       <li>Stony</li>
     </stuffCategories>
     <costStuffCount>100</costStuffCount>
@@ -431,7 +429,6 @@
       <Steel>25</Steel>
       <Component>3</Component>
     </CostList>
-    <AltitudeLayer>Pawn</AltitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -441,8 +438,6 @@
     </statBases>
     <Size>(3,2)</Size>
     <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
-    <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
