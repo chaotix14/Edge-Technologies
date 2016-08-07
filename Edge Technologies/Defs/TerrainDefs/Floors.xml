@@ -24,6 +24,6 @@
       <li>GrowSoil</li>
       <li>Diggable</li>
     </affordances>
-    <Fertility>1.0</Fertility>
+    <Fertility>1.4</Fertility>
   </TerrainDef>
 </TerrainDefs>
