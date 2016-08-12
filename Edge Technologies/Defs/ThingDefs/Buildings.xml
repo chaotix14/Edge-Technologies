@@ -32,6 +32,7 @@
       <Flammability>0</Flammability>
       <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
     </statBases>
+    <tickerType>Normal</tickerType>
     <Size>(3,3)</Size>
     <DesignationCategory>Production</DesignationCategory>
     <Passability>Impassable</Passability>
@@ -111,6 +112,7 @@
       <WorkToMake>1800</WorkToMake>
       <Flammability>1.0</Flammability>
     </statBases>
+    <tickerType>Normal</tickerType>
     <description>Increases the mining speed of the robot mining complex. Must be placed ajacent.</description>
     <size>(1,1)</size>
     <costList>
@@ -175,6 +177,7 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
+    <tickerType>Normal</tickerType>
     <Size>(3,1)</Size>
     <DesignationCategory>Production</DesignationCategory>
     <Passability>PassThroughOnly</Passability>
@@ -252,6 +255,7 @@
       <MaxHitPoints>125</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
+    <tickerType>Normal</tickerType>
     <Size>(1,1)</Size>
     <DesignationCategory>Production</DesignationCategory>
     <Passability>PassThroughOnly</Passability>
@@ -388,6 +392,7 @@
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
+    <tickerType>Normal</tickerType>
     <Size>(3,2)</Size>
     <DesignationCategory>Production</DesignationCategory>
     <hasInteractionCell>True</hasInteractionCell>
