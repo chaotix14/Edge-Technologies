@@ -138,7 +138,7 @@
       <li Class="CommunityCoreLibrary.CompProperties_LowIdleDraw">
         <compClass>CommunityCoreLibrary.CompPowerLowIdleDraw</compClass>
         <idlePowerFactor>25</idlePowerFactor>
-        <operationalMode>WhenNear</operationalMode>
+        <operationalMode>InUse</operationalMode>
       </li>
       <li Class="CompProperties_Flickable" />
     </comps>
