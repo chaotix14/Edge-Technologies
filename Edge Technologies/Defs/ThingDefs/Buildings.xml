@@ -32,6 +32,7 @@
       <Flammability>0</Flammability>
       <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
     </statBases>
+    <tickerType>Normal</tickerType>
     <Size>(3,3)</Size>
     <DesignationCategory>Production</DesignationCategory>
     <Passability>Impassable</Passability>
@@ -64,6 +65,11 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>2000</basePowerConsumption>
         <startElectricalFires>False</startElectricalFires>
+      </li>
+      <li Class="CommunityCoreLibrary.CompProperties_LowIdleDraw">
+        <compClass>CommunityCoreLibrary.CompPowerLowIdleDraw</compClass>
+        <idlePowerFactor>50</idlePowerFactor>
+        <operationalMode>InUse</operationalMode>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Breakdownable" />
@@ -106,6 +112,7 @@
       <WorkToMake>1800</WorkToMake>
       <Flammability>1.0</Flammability>
     </statBases>
+    <tickerType>Normal</tickerType>
     <description>Increases the mining speed of the robot mining complex. Must be placed ajacent.</description>
     <size>(1,1)</size>
     <costList>
@@ -127,6 +134,11 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>1000</basePowerConsumption>
         <startElectricalFires>False</startElectricalFires>
+      </li>
+      <li Class="CommunityCoreLibrary.CompProperties_LowIdleDraw">
+        <compClass>CommunityCoreLibrary.CompPowerLowIdleDraw</compClass>
+        <idlePowerFactor>25</idlePowerFactor>
+        <operationalMode>InUse</operationalMode>
       </li>
       <li Class="CompProperties_Flickable" />
     </comps>
@@ -165,6 +177,7 @@
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
+    <tickerType>Normal</tickerType>
     <Size>(3,1)</Size>
     <DesignationCategory>Production</DesignationCategory>
     <Passability>PassThroughOnly</Passability>
@@ -184,6 +197,11 @@
         <compClass>CompPowerTrader</compClass>
         <startElectricalFires>true</startElectricalFires>
         <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CommunityCoreLibrary.CompProperties_LowIdleDraw">
+        <compClass>CommunityCoreLibrary.CompPowerLowIdleDraw</compClass>
+        <idlePowerFactor>0</idlePowerFactor>
+        <operationalMode>InUse</operationalMode>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Glower">
@@ -207,74 +225,6 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-  </ThingDef>
-  <ThingDef ParentName="BenchBase">
-    <DefName>AlloyForge</DefName>
-    <label>Alloy Forge</label>
-    <ThingClass>Building_WorkTable_HeatPush</ThingClass>
-    <Description>Used to smelt base metals into more advanced alloys.</Description>
-    <graphicData>
-      <texPath>Things/Building/Production/ElectricSmelter</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3.5,1.5)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <constructEffect>ConstructMetal</constructEffect>
-    <CostList>
-      <Steel>200</Steel>
-      <Component>6</Component>
-    </CostList>
-    <AltitudeLayer>Pawn</AltitudeLayer>
-    <fillPercent>0.5</fillPercent>
-    <useHitPoints>True</useHitPoints>
-    <statBases>
-      <WorkToMake>3500</WorkToMake>
-      <MaxHitPoints>180</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-    </statBases>
-    <Size>(3,1)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
-    <pathCost>70</pathCost>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <surfaceType>Item</surfaceType>
-    <recipes>
-      <li>MakePlasteel</li>
-      <li>MakeTitanAlloy</li>
-    </recipes>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>1000</basePowerConsumption>
-        <startElectricalFires>true</startElectricalFires>
-      </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Glower">
-        <glowRadius>8</glowRadius>
-        <glowColor>(217,112,33,0)</glowColor>
-      </li>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>5</heatPerSecond>
-      </li>
-      <li Class="CompProperties_Breakdownable" />
-    </comps>
-    <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-      <heatPerTickWhileWorking>1</heatPerTickWhileWorking>
-    </building>
-    <researchPrerequisites>
-      <li>Alloys</li>
-    </researchPrerequisites>
   </ThingDef>
   <ThingDef ParentName="BenchBase">
     <DefName>Bioreactor</DefName>
@@ -305,6 +255,7 @@
       <MaxHitPoints>125</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
+    <tickerType>Normal</tickerType>
     <Size>(1,1)</Size>
     <DesignationCategory>Production</DesignationCategory>
     <Passability>PassThroughOnly</Passability>
@@ -324,6 +275,11 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>250</basePowerConsumption>
         <startElectricalFires>true</startElectricalFires>
+      </li>
+      <li Class="CommunityCoreLibrary.CompProperties_LowIdleDraw">
+        <compClass>CommunityCoreLibrary.CompPowerLowIdleDraw</compClass>
+        <idlePowerFactor>0</idlePowerFactor>
+        <operationalMode>InUse</operationalMode>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Breakdownable" />
@@ -400,7 +356,7 @@
       <li>Bioscience</li>
     </researchPrerequisites>
   </ThingDef>
-   <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="BenchBase">
     <DefName>ChemistryStation</DefName>
     <label>Chemistry Station</label>
     <ThingClass>Building_WorkTable</ThingClass>
@@ -419,7 +375,7 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <pathCost>70</pathCost>>
+    <pathCost>70</pathCost>
     <stuffCategories>
       <li>Metallic</li>
       <li>Stony</li>
@@ -436,6 +392,7 @@
       <MaxHitPoints>150</MaxHitPoints>
       <Flammability>1.0</Flammability>
     </statBases>
+    <tickerType>Normal</tickerType>
     <Size>(3,2)</Size>
     <DesignationCategory>Production</DesignationCategory>
     <hasInteractionCell>True</hasInteractionCell>
@@ -452,6 +409,11 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>250</basePowerConsumption>
         <startElectricalFires>true</startElectricalFires>
+      </li>
+      <li Class="CommunityCoreLibrary.CompProperties_LowIdleDraw">
+        <compClass>CommunityCoreLibrary.CompPowerLowIdleDraw</compClass>
+        <idlePowerFactor>0</idlePowerFactor>
+        <operationalMode>InUse</operationalMode>
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Breakdownable" />

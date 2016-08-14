@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <CommunityCoreLibrary.AdvancedResearchDef>
+    <defName>MakePlasteelElectricSmelter</defName>
+    <Priority>0</Priority>
+    <researchDefs>
+      <li>Alloys</li>
+    </researchDefs>
+    <recipeDefs>
+      <li>MakePlasteel</li>
+    </recipeDefs>
+    <thingDefs>
+      <li>ElectricSmelter</li>
+    </thingDefs>
+  </CommunityCoreLibrary.AdvancedResearchDef>
+  <CommunityCoreLibrary.AdvancedResearchDef>
+    <defName>MakeTitanAlloyElectricSmelter</defName>
+    <Priority>0</Priority>
+    <researchDefs>
+      <li>AdvancedMetalurgy</li>
+    </researchDefs>
+    <recipeDefs>
+      <li>MakeTitanAlloy</li>
+    </recipeDefs>
+    <thingDefs>
+      <li>ElectricSmelter</li>
+    </thingDefs>
+  </CommunityCoreLibrary.AdvancedResearchDef>
+</Defs>
