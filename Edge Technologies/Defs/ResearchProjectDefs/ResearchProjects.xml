@@ -3,8 +3,8 @@
   <ResearchProjectDef>
     <defName>Alloys</defName>
     <label>Alloys</label>
-    <description>Allows the construction of the Alloy smelter and gives access to the first alloy plasteel.</description>
-    <baseCost>1600</baseCost>
+    <description>Allows the production of plasteel in the electric smelter.</description>
+    <baseCost>1400</baseCost>
     <techLevel>Industrial</techLevel>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <prerequisites>
@@ -15,8 +15,8 @@
     <defName>AdvancedMetalurgy</defName>
     <label>Advanced Metalurgy</label>
     <description>Allows the fabrication of advanced alloys.</description>
-    <baseCost>2800</baseCost>
-    <techLevel>Industrial</techLevel>
+    <baseCost>1400</baseCost>
+    <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>Alloys</li>
     </prerequisites>

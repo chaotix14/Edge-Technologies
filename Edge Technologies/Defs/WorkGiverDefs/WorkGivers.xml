@@ -16,21 +16,6 @@
     </requiredCapacities>
   </WorkGiverDef>
   <WorkGiverDef>
-    <defName>DoBillsAlloyForge</defName>
-    <label>Smelt</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
-    <priorityInType>70</priorityInType>
-    <fixedBillGiverDefs>
-      <li>AlloyForge</li>
-    </fixedBillGiverDefs>
-    <verb>Smelt</verb>
-    <gerund>Smelting at</gerund>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-  </WorkGiverDef>
-  <WorkGiverDef>
     <defName>DoBillsRoboticsWorkbench</defName>
     <label>Make Robotics</label>
     <giverClass>WorkGiver_DoBill</giverClass>
@@ -56,6 +41,21 @@
     </fixedBillGiverDefs>
     <verb>Ferment</verb>
     <gerund>Fermenting at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>DoBillsChemistryStation</defName>
+    <label>Produce</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>80</priorityInType>
+    <fixedBillGiverDefs>
+      <li>ChemistryStation</li>
+    </fixedBillGiverDefs>
+    <verb>Produce</verb>
+    <gerund>Producing at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
