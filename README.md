@@ -1,4 +1,4 @@
 # Edge-Technologies
 The Github repository for the Rimworld mod Edge Technologies
 
-Current version is 0.20.2 for Rimworld A14
+Current version is 1.0 for Rimworld A14
