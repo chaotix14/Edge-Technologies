@@ -211,133 +211,91 @@
     <label>Mine Steel</label>
     <description>Mine Steel.</description>
     <jobString>Mining Steel.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1500</workAmount>
     <products>
       <Steel>25</Steel>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineSilver</defName>
     <label>Mine Silver</label>
     <description>Mine Silver.</description>
     <jobString>Mining Silver.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1500</workAmount>
     <products>
       <Silver>10</Silver>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineGold</defName>
     <label>Mine Gold</label>
     <description>Mine Gold.</description>
     <jobString>Mining Gold.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1500</workAmount>
     <products>
       <Gold>5</Gold>
-    </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    </products
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineUranium</defName>
     <label>Mine Uranium</label>
     <description>Mine Uranium.</description>
     <jobString>Mining Uranium.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1500</workAmount>
     <products>
-      <Uranium>4</Uranium>
+      <Uranium>10</Uranium>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineCobalt</defName>
     <label>Mine Cobalt</label>
     <description>Mine Cobalt.</description>
     <jobString>Mining Cobalt.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1500</workAmount>
     <products>
       <Cobalt>1</Cobalt>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineTitanium</defName>
     <label>Mine Titanium</label>
     <description>Mine Titanium.</description>
     <jobString>Mining Titanium.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1500</workAmount>
     <products>
       <Titanium>10</Titanium>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MinePlatinum</defName>
     <label>Mine Platinum</label>
     <description>Mine Platinum.</description>
     <jobString>Mining Platinum.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1500</workAmount>
     <products>
-      <Platinum>1</Platinum>
+      <Platinum>3</Platinum>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <!--Mining-Stones-->
   <RecipeDef>
@@ -345,95 +303,65 @@
     <label>Mine Sandstone</label>
     <description>Mine Sandstone.</description>
     <jobString>Mining Sandstone.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>800</workAmount>
     <products>
       <ChunkSandstone>1</ChunkSandstone>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineMarble</defName>
     <label>Mine Marble</label>
     <description>Mine Marble.</description>
     <jobString>Mining Marble.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>800</workAmount>
     <products>
       <ChunkMarble>1</ChunkMarble>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineSlate</defName>
     <label>Mine Slate</label>
     <description>Mine Slate.</description>
     <jobString>Mining Slate.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>800</workAmount>
     <products>
       <ChunkSlate>1</ChunkSlate>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineGranite</defName>
     <label>Mine Granite</label>
     <description>Mine Granite.</description>
     <jobString>Mining Granite.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>800</workAmount>
     <products>
       <ChunkGranite>1</ChunkGranite>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <RecipeDef>
     <defName>MineJade</defName>
     <label>Mine Jade</label>
     <description>Mine Jade.</description>
     <jobString>Mining Jade.</jobString>
-    <workSpeedStat>StonecuttingSpeed</workSpeedStat>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
     <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1500</workAmount>
     <products>
-      <Jade>4</Jade>
+      <Jade>10</Jade>
     </products>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
+    <workSkill>Mining</workSkill>
   </RecipeDef>
   <!--Bioreactor-->
   <RecipeDef>
