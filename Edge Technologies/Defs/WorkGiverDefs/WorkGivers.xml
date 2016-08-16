@@ -4,7 +4,7 @@
     <defName>DoBillsMine</defName>
     <label>Robot Mine</label>
     <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
+    <workType>Mining</workType>
     <priorityInType>60</priorityInType>
     <fixedBillGiverDefs>
       <li>RobotMiningComplex</li>
